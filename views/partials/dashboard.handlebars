@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row w-50 mx-auto mt-5">
+        {{#each data}}
+        <div class="col-4">
+
+            {{>card producto=this.name}}
+
+        </div>
+        
+    </div>
+{{/each}}
+</div>
+{{>modal}}
